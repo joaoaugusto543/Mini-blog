@@ -1,0 +1,33 @@
+.NotFound{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 55;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.NotFound p{
+    font-size: 20px;
+}
+
+.NotFound a{
+    text-decoration:underline;
+    color: red;
+}
+
+.NotFound img{
+    animation: rotate linear 3s infinite;
+    background: none;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}

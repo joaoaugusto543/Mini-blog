@@ -1,0 +1,48 @@
+.navBar{
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0;
+    padding: .5em 2em;
+
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+.brand{
+    font-size: 1.2em;
+    color: black;
+}
+
+.brand span{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.linkaList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.linkaList li{
+    margin-right: 1em;
+}
+
+.linkaList li a{
+   padding: .4em .6em;
+}
+
+.active{
+    background-color: #000;
+    color: #fff;
+}
+
+.disabled{
+    color: #000;
+}
